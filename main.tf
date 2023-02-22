@@ -7,7 +7,7 @@ terraform {
     region = "eu-central-1"
     # DynamoDB table name
     dynamodb_table = "MyDynamoDB-Lock"
-    ncrypt = true
+    encrypt = true
 
   }
 
