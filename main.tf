@@ -1,5 +1,7 @@
 terraform {
   required_version = ">= 1.3.7, < 2.0.0"
+
+ // Add S3 remote BAckend
   backend "s3" {
     # bucket name
     bucket = "my-test-backet-007"
