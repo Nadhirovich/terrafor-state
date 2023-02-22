@@ -10,7 +10,7 @@ provider "aws" {
 
 resource "aws_s3_bucket" "terraform_state" {
 
-  bucket = "my-test-backet"
+  bucket = "my-test-backet_007"
 
   // Prevent accidental deletion of this S3 Bucket
   lifecycle {
